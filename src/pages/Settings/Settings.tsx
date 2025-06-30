@@ -17,7 +17,7 @@ export const Settings: React.FC = () => {
     {
       id: 'user-1',
       name: 'Admin User',
-      email: 'admin@fazamfootball.com',
+      email: 'admin@academypro.com',
       role: 'admin',
       lastLogin: '2024-12-28T10:30:00Z',
       status: 'active'
@@ -25,7 +25,7 @@ export const Settings: React.FC = () => {
     {
       id: 'user-2',
       name: 'Carlos Rodriguez',
-      email: 'carlos@fazamfootball.com',
+      email: 'carlos@academypro.com',
       role: 'coach',
       lastLogin: '2024-12-27T15:45:00Z',
       status: 'active'
@@ -33,7 +33,7 @@ export const Settings: React.FC = () => {
     {
       id: 'user-3',
       name: 'Sarah Wilson',
-      email: 'sarah@fazamfootball.com',
+      email: 'sarah@academypro.com',
       role: 'coach',
       lastLogin: '2024-12-26T09:20:00Z',
       status: 'active'
@@ -41,7 +41,7 @@ export const Settings: React.FC = () => {
     {
       id: 'user-4',
       name: 'Finance Manager',
-      email: 'finance@fazamfootball.com',
+      email: 'finance@academypro.com',
       role: 'finance',
       lastLogin: '2024-12-25T14:10:00Z',
       status: 'inactive'

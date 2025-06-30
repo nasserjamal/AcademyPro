@@ -116,9 +116,9 @@ export const Sidebar: React.FC = () => {
                 </div>
                 <div>
                   <h1 className="font-heading font-bold text-lg text-gray-900 dark:text-white">
-                    Fazam
+                    AcademyPro
                   </h1>
-                  <p className="text-xs text-gray-500 dark:text-gray-400">Football Academy</p>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">Management</p>
                 </div>
               </div>
             )}
@@ -240,8 +240,8 @@ export const Sidebar: React.FC = () => {
         {!isCollapsed && (
           <div className="p-4 border-t border-gray-200 dark:border-gray-700 flex-shrink-0">
             <div className="text-xs text-gray-500 dark:text-gray-400 text-center">
-              <p>© 2024 Fazam</p>
-              <p>Football Academy</p>
+              <p>© 2024 AcademyPro</p>
+              <p>Management System</p>
             </div>
           </div>
         )}

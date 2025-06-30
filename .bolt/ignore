@@ -1,0 +1,33 @@
+# Dashboard
+# src/pages/Dashboard.tsx
+
+# Students
+# src/pages/Students/Students.tsx
+# src/pages/Students/StudentDetail.tsx
+
+# Groups & Coaches
+# src/pages/Groups/Groups.tsx
+
+# Sessions
+# src/pages/Sessions/Sessions.tsx
+
+# Drills
+# src/pages/Drills/Drills.tsx
+
+# Assessments
+# src/pages/Assessments/Assessments.tsx
+
+# Finance
+# src/pages/Finance/Finance.tsx
+
+# Announcements
+# src/pages/Announcements/Announcements.tsx
+
+# Events
+# src/pages/Events/Events.tsx
+
+# Reports
+# src/pages/Reports/Reports.tsx
+
+# Settings
+# src/pages/Settings/Settings.tsx

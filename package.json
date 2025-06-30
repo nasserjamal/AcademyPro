@@ -18,7 +18,8 @@
     "date-fns": "^3.3.1",
     "recharts": "^2.10.3",
     "qrcode": "^1.5.3",
-    "react-qr-code": "^2.0.12"
+    "react-qr-code": "^2.0.12",
+    "firebase": "^10.8.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",

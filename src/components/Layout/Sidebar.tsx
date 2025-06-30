@@ -69,8 +69,7 @@ export const Sidebar: React.FC = () => {
     // Clear any stored tokens or session data
     localStorage.removeItem('userToken');
     localStorage.removeItem('activeAcademyId');
-    // Redirect to login page or home
-    window.location.href = '/login';
+    // The App component will automatically redirect to login when currentUser is null
   };
 
   const isItemActive = (item: any) => {

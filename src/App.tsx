@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Layout } from './components/Layout/Layout';
+import { Login } from './pages/Auth/Login';
 import { Dashboard } from './pages/Dashboard';
 import { Students } from './pages/Students/Students';
 import { Guardians } from './pages/Students/Guardians';
@@ -20,13 +21,30 @@ import { Announcements } from './pages/Announcements/Announcements';
 import { Events } from './pages/Events/Events';
 import { Reports } from './pages/Reports/Reports';
 import { Settings } from './pages/Settings/Settings';
+import { useStore } from './store/useStore';
 
 function App() {
+  const { currentUser } = useStore();
+
+  // If no user is logged in, show login page
+  if (!currentUser) {
+    return (
+      <Router>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="*" element={<Navigate to="/login" replace />} />
+        </Routes>
+      </Router>
+    );
+  }
+
+  // If user is logged in, show main app
   return (
     <Router>
       <Layout>
         <Routes>
           <Route path="/" element={<Navigate to="/dashboard" replace />} />
+          <Route path="/login" element={<Navigate to="/dashboard" replace />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/students" element={<Students />} />
           <Route path="/students/guardians" element={<Guardians />} />

@@ -4,12 +4,12 @@ export const mockData = {
   academies: [
     {
       id: 'academy-1',
-      name: 'Elite Football Academy',
+      name: 'Fazam Football Academy',
       description: 'Premier football training academy in Nairobi',
       address: '123 Sports Complex, Nairobi, Kenya',
       phone: '+254712345678',
-      email: 'info@elitefootball.com',
-      website: 'www.elitefootball.com',
+      email: 'info@fazamfootball.com',
+      website: 'www.fazamfootball.com',
       timezone: 'Africa/Nairobi',
       currency: 'KSh',
       settings: {
@@ -91,7 +91,7 @@ export const mockData = {
     {
       id: 'user-1',
       name: 'Admin User',
-      email: 'admin@academypro.com',
+      email: 'admin@fazamfootball.com',
       role: 'admin' as const,
       permissions: ['all'],
       academyIds: ['academy-1', 'academy-2', 'academy-3']
@@ -1146,7 +1146,7 @@ export const mockData = {
       date: '2025-01-05',
       startTime: '18:00',
       endTime: '19:30',
-      location: 'AcademyPro Clubhouse',
+      location: 'Fazam Football Academy Clubhouse',
       groupIds: ['group-2'],
       coachIds: ['coach-2'],
       rsvpRequired: true,

@@ -3,7 +3,7 @@ import { Student, Guardian, Group, Coach, Session, Drill, Assessment, Fee, Expen
 import { mockData } from '../data/mockData';
 
 // Configuration flag to switch between mockup and Firebase backend
-const USE_FIREBASE_BACKEND = false;
+const USE_FIREBASE_BACKEND = true;
 
 // Firebase simulation functions
 const firebaseOperations = {
